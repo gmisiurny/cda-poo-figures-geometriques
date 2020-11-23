@@ -5,6 +5,11 @@ import figurs.geometriques.interfaces.ITranslation;
 public class Cercle extends CouleurForme implements ITranslation {
 	private Point a;
 	private int r;
+	
+	Cercle(Point a, int r) {
+		this.a = a;
+		this.r = r;
+	}
 
 	
 	public Point getA() {

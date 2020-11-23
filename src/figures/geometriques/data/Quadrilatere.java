@@ -9,6 +9,13 @@ public class Quadrilatere extends CouleurForme implements ITranslation, IRotatio
 	private Point c;
 	private Point d;
 	
+	Quadrilatere(Point a, Point b, Point c, Point d) {
+		this.a = a;
+		this.b = b;
+		this.c = c;
+		this.d = d;
+	}
+	
 	public Point getA() {
 		return this.a;
 	}

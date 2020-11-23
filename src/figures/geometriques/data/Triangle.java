@@ -8,6 +8,12 @@ public class Triangle extends CouleurForme implements ITranslation, IRotation {
 	private Point b;
 	private Point c;
 	
+	Triangle(Point a, Point b, Point c) {
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+	
 	public Point getA() {
 		return this.a;
 	}
